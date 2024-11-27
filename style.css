@@ -1,0 +1,33 @@
+ .sidebar-container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #f8f9fa; 
+            width: 210px;
+        }
+        .custom-nav a {
+            display: block;
+            padding: 10px 15px;
+            color: #000;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .custom-nav a:hover {
+            background-color: rgb(35, 199, 35); 
+            color: #fff;
+            border-radius: 4px;
+        }
+
+        .profile-section {
+            padding: 20px 0;
+        }
+
+        .profile-section .d-flex {
+            align-items: center;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
